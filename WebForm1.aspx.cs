@@ -18,7 +18,7 @@ namespace WebApplication16
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\REIGN\Documents\Visual Studio 2012\Projects\WebApplication16\WebApplication16\App_Data\Database1.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=App_Data\Database1.mdf;Integrated Security=True");
             con.Open();
 
 
