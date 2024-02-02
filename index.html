@@ -18,18 +18,18 @@
   <form action="/action_page.php">
     <div class="mb-3 mt-3">
       <label for="email">Email:</label>
-        <asp:TextBox ID="TextBox1" runat="server" type="email" CssClass="form-control" name="email" placeholder="Enter Email"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 
     </div>
     <div class="mb-3">
       <label for="pwd">Password:</label>
-        <asp:TextBox ID="TextBox2" runat="server" type="password" CssClass="form-control" name="password" placeholder="Enter Password"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
       
     </div>
 
       <div class="mb-3">
       <label for="pwd">Password:</label>
-          <asp:TextBox ID="TextBox3" runat="server" CssClass="form-control"></asp:TextBox>
+          <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
       
     </div>
     <div class="form-check mb-3">
@@ -37,7 +37,7 @@
         <input class="form-check-input" type="checkbox" name="remember"> Remember me
       </label>
     </div>
-      <asp:Button ID="Button1" runat="server" Text="Register" type="submit" CssClass="btn btn-primary" OnClick="Button1_Click1"/>
+      <asp:Button ID="Button1" runat="server" OnClick="Button1_Click1"/>
     
   </form>
 </div>
